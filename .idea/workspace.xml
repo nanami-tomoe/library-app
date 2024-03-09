@@ -4,15 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="21896bcb-b325-413f-b33a-be98a5074281" name="Changes" comment="유저 업데이트 API, 유저 삭제 API">
-      <change beforePath="$PROJECT_DIR$/.gradle/7.5/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.5/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.5/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.5/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.5/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+    <list default="true" id="21896bcb-b325-413f-b33a-be98a5074281" name="Changes" comment="유저 업데이트 API, 삭제 API 예외 처리 하기">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/group/libraryapp/Repository/user/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/group/libraryapp/Service/User/UserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/group/libraryapp/controller/user/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/group/libraryapp/controller/user/UserController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -230,7 +225,7 @@
       <workItem from="1709630212994" duration="3653000" />
       <workItem from="1709746374428" duration="1486000" />
       <workItem from="1709748633283" duration="1578000" />
-      <workItem from="1709752076906" duration="10487000" />
+      <workItem from="1709752076906" duration="13953000" />
     </task>
     <task id="LOCAL-00001" summary="GET API 생성">
       <option name="closed" value="true" />
@@ -296,7 +291,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710011257768</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="유저 업데이트 API, 삭제 API 예외 처리 하기">
+      <option name="closed" value="true" />
+      <created>1710012124993</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1710012124993</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -319,7 +322,8 @@
     <MESSAGE value="유저 생성 API개발" />
     <MESSAGE value="유저 조회 API개발과 테스트" />
     <MESSAGE value="유저 업데이트 API, 유저 삭제 API" />
-    <option name="LAST_COMMIT_MESSAGE" value="유저 업데이트 API, 유저 삭제 API" />
+    <MESSAGE value="유저 업데이트 API, 삭제 API 예외 처리 하기" />
+    <option name="LAST_COMMIT_MESSAGE" value="유저 업데이트 API, 삭제 API 예외 처리 하기" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

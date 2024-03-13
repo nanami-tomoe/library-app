@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="21896bcb-b325-413f-b33a-be98a5074281" name="Changes" comment="Controller 3단 분리">
+    <list default="true" id="21896bcb-b325-413f-b33a-be98a5074281" name="Changes" comment="UserController와 스프링 컨테이너">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/group/libraryapp/Repository/user/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/group/libraryapp/Repository/user/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/group/libraryapp/Service/User/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/group/libraryapp/Service/User/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/group/libraryapp/controller/user/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/group/libraryapp/controller/user/UserController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -225,7 +222,7 @@
       <workItem from="1709630212994" duration="3653000" />
       <workItem from="1709746374428" duration="1486000" />
       <workItem from="1709748633283" duration="1578000" />
-      <workItem from="1709752076906" duration="15621000" />
+      <workItem from="1709752076906" duration="16845000" />
     </task>
     <task id="LOCAL-00001" summary="GET API 생성">
       <option name="closed" value="true" />
@@ -307,7 +304,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710015570131</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="UserController와 스프링 컨테이너">
+      <option name="closed" value="true" />
+      <created>1710088434868</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1710088434868</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -332,7 +337,8 @@
     <MESSAGE value="유저 업데이트 API, 유저 삭제 API" />
     <MESSAGE value="유저 업데이트 API, 삭제 API 예외 처리 하기" />
     <MESSAGE value="Controller 3단 분리" />
-    <option name="LAST_COMMIT_MESSAGE" value="Controller 3단 분리" />
+    <MESSAGE value="UserController와 스프링 컨테이너" />
+    <option name="LAST_COMMIT_MESSAGE" value="UserController와 스프링 컨테이너" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

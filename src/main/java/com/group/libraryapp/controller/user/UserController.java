@@ -1,6 +1,6 @@
 package com.group.libraryapp.controller.user;
 
-import com.group.libraryapp.Service.User.UserService;
+import com.group.libraryapp.Service.User.UserServiceV1;
 import com.group.libraryapp.dto.user.request.UserCreateRequest;
 import com.group.libraryapp.dto.user.request.UserUpdateRequest;
 import com.group.libraryapp.dto.user.response.UserResponse;
@@ -11,31 +11,31 @@ import java.util.List;
 @RestController
 public class UserController {
 
-    private final UserService userService;
+    private final UserServiceV1 userServiceV1;
 
-    public UserController(UserService userService)  {
-        this.userService = userService;
+    public UserController(UserServiceV1 userServiceV1)  {
+        this.userServiceV1 = userServiceV1;
     }
 
     @PostMapping("/user") // POST
     // /user
     public void saveUser(@RequestBody UserCreateRequest request) {
-        userService.saveUser(request);
+        userServiceV1.saveUser(request);
     }
 
     @GetMapping("/user")
     public List<UserResponse> getUsers() {
-        return userService.getUsers();
+        return userServiceV1.getUsers();
     }
 
     @PutMapping("/user")
     public void updateUser(@RequestBody UserUpdateRequest request) {
-        userService.updateUser(request);
+        userServiceV1.updateUser(request);
     }
 
     @DeleteMapping("/user")
     public void deleteUser(@RequestParam String name) {
-        userService.deleteUser(name);
+        userServiceV1.deleteUser(name);
     }
 
 }

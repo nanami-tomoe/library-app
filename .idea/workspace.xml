@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="21896bcb-b325-413f-b33a-be98a5074281" name="Changes" comment="스프링 컨테이너 다루기">
+    <list default="true" id="21896bcb-b325-413f-b33a-be98a5074281" name="Changes" comment="JPA 사용을 위한 설정">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/group/libraryapp/domain/user/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/group/libraryapp/domain/user/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -226,7 +224,7 @@
       <workItem from="1709748633283" duration="1578000" />
       <workItem from="1709752076906" duration="16845000" />
       <workItem from="1710352346946" duration="2336000" />
-      <workItem from="1710604169719" duration="1175000" />
+      <workItem from="1710604169719" duration="1882000" />
     </task>
     <task id="LOCAL-00001" summary="GET API 생성">
       <option name="closed" value="true" />
@@ -324,7 +322,23 @@
       <option name="project" value="LOCAL" />
       <updated>1710354515352</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Entity 클래스 만들기">
+      <option name="closed" value="true" />
+      <created>1710605450270</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1710605450270</updated>
+    </task>
+    <task id="LOCAL-00014" summary="JPA 사용을 위한 설정">
+      <option name="closed" value="true" />
+      <created>1710605486389</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1710605486389</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -351,7 +365,9 @@
     <MESSAGE value="Controller 3단 분리" />
     <MESSAGE value="UserController와 스프링 컨테이너" />
     <MESSAGE value="스프링 컨테이너 다루기" />
-    <option name="LAST_COMMIT_MESSAGE" value="스프링 컨테이너 다루기" />
+    <MESSAGE value="Entity 클래스 만들기" />
+    <MESSAGE value="JPA 사용을 위한 설정" />
+    <option name="LAST_COMMIT_MESSAGE" value="JPA 사용을 위한 설정" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

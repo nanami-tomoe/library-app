@@ -2,10 +2,10 @@ package com.group.libraryapp.dto.user.request;
 
 public class UserUpdateRequest {
 
-    private long id;
+    private Long id;
     private String name;
 
-    public long getId() {
+    public Long getId() {
         return id;
     }
 

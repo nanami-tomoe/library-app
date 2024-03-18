@@ -9,7 +9,7 @@ public class User {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id = null;
 
-    @Column(nullable = false, length = 20) // name varchar(20)
+    @Column(nullable = false, length = 25) // name varchar(25)
     private String name;
 
     private Integer age;

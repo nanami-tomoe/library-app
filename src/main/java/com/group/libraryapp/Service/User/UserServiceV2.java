@@ -18,6 +18,7 @@ public class UserServiceV2 {
         this.userRepository = userRepository;
     }
 
+
     public void saveUser(UserCreateRequest request) {
         userRepository.save(new User(request.getName(), request.getAge()));
     }
@@ -34,5 +35,11 @@ public class UserServiceV2 {
 
         user.updateName(request.getName());
         userRepository.save(user);
+    }
+
+    public void deleteUser(String name) {
+        User user = userRepository.findByName(name).orElseThrow(IllegalArgumentException::new);
+
+        userRepository.delete(user);
     }
 }

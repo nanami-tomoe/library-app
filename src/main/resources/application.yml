@@ -11,4 +11,4 @@ spring:
       hibernate:
         format_sql: true
         show_sql: true
-        dialect: org.hibernate.dialect.MySql8Dialect
+        dialect: org.hibernate.dialect.MySQL8Dialect

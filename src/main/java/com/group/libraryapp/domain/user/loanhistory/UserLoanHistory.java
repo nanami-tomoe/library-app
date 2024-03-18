@@ -20,6 +20,7 @@ public class UserLoanHistory {
     public UserLoanHistory(long userId, String bookName) {
         this.userId = userId;
         this.bookName = bookName;
+        this.isReturn = false;
     }
 
     public Long getId() {
@@ -36,5 +37,9 @@ public class UserLoanHistory {
 
     public boolean isReturn() {
         return isReturn;
+    }
+
+    public void doReturn() {
+        this.isReturn = true;
     }
 }
